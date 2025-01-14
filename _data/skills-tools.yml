@@ -5,32 +5,38 @@
 # - name: Git
 #   weight: 5
 
+- name: Java
+  weight: 3
+
+- name: Javascript
+  weight: 2
+
+- name: HTML
+  weight: 2
+
+- name: CSS
+  weight: 2
+
+- name: R
+  weight: 3
+
+- name: SQL
+  weight: 4
+
+- name: ReactJS
+  weight: 1
+
+- name: Laravel
+  weight: 1
+
+- name: AWS Lambda
+  weight: 2
+
+- name: AWS S3
+  weight: 2
+
+- name: Google Cloud Big Query
+  weight: 2
+
 - name: Git
-  weight: 5
-
-- name: Bash
   weight: 3
-
-- name: Scrum
-  weight: 3
-
-- name: Travis CI
-  weight: 1
-
-- name: Jenkins
-  weight: 1
-
-- name: Chrome DevTools
-  weight: 2
-
-- name: npm
-  weight: 2
-
-- name: gulp
-  weight: 4
-
-- name: VS Code
-  weight: 3
-
-- name: Postman
-  weight: 4

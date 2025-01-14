@@ -1,29 +1,3 @@
-{% if site.show_projects %}
-  <h1 class="title"><span>{{site.projects_title}}</span></h1>
-  <div class="projects-wrapper">
-    {% for project in site.data.projects %}
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
-          <h3>{{project.name}}</h3>
-        </div>
-        <p class="project-desc">{{project.descr}}</p>
-        {% if project.demo %}
-          <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
-            Demo
-          </a>
-        {% endif %}
-        {% if project.tags %}
-          <div class="tag-wrapper">
-            {% for tag in project.tags %}
-              <span class="tag neumorphism-card">{{tag.tag}}</span>
-            {% endfor %}
-          </div>
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
-{% endif %}
-
 {% if site.show_os_projects %}
   <h1 class="title">{{site.os_projects_title}}</h1>
   {% if site.projects.sort_by == 'stars' %}
@@ -91,3 +65,38 @@
 {% endif %}
 
 
+{% if site.show_projects %}
+  <h1 class="title"><span>{{ site.projects_title }}</span></h1>
+  <div class="projects-wrapper">
+    {% for project in site.data.projects %}
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        
+        <div class="name-link-wrapper" style="text-align: center;">
+          <h3 style="display: inline-block;">{{ project.name }}</h3>
+        </div>
+
+        {% if project.image %}
+          <img 
+            src="{{ project.image | prepend: site.baseurl }}" 
+            alt="{{ project.name }} image"  
+            class="project-image" 
+            style="display:block; margin:0 auto; max-width: 400px;">
+        {% endif %}
+                    
+        <p class="project-desc">{{ project.descr }}</p>
+        {% if project.demo %}
+          <a class="highlight-link" href="{{ project.demo }}" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        {% endif %}
+        {% if project.tags %}
+          <div class="tag-wrapper">
+            {% for tag in project.tags %}
+              <span class="tag neumorphism-card">{{ tag.tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

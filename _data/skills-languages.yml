@@ -5,38 +5,52 @@
 # - name: Language
 #   weight: 5
 
-- name: TypeScript
-  weight: 5
-
-- name: JavaScript
-  weight: 4
-
-- name: Python
-  weight: 2
-
-- name: HTML5
-  weight: 4
-
-- name: CSS3
+- name: Time-Series Transformer
   weight: 3
 
-- name: SASS
+- name: Neural Network
   weight: 3
 
-- name: Java
-  weight: 1
-
-- name: Dart
-  weight: 1
-
-- name: Swift
-  weight: 1
-
-- name: Kotlin
-  weight: 1
-
-- name: C++
+- name: DDQN
   weight: 2
 
-- name: Ruby
+- name: Clustering
   weight: 2
+
+- name: Lasso Regression
+  weight: 2
+
+- name: Linear Regression
+  weight: 2
+
+- name: Random Forest
+  weight: 3
+
+- name: XGBoost
+  weight: 3
+
+- name: Decision Tree
+  weight: 3
+
+- name: Logistic Regression
+  weight: 3
+
+- name: Reinforcement Learning
+  weight: 3
+
+- name: Cross-Validation
+  weight: 1
+
+- name: Hyperparameter Tuning
+  weight: 1
+
+- name: Evaluation Metrics
+  weight: 1
+
+- name: Feature Engineering
+  weight: 1
+
+- name: Data Preprocessing
+  weight: 1
+
+
