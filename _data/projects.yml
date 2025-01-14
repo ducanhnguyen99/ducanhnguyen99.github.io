@@ -57,7 +57,7 @@
     preferences. For example, some may want burgers while others crave fried sushi, and you hope to order both from a single restaurant.
     A RAG-based chatbot can analyze these varied preferences and recommend one place—such as via Lieferando—that satisfies all wishes. 
     Currently, Lieferando categorizes by individual cuisines rather than specific dishes. By training the model with extensive 
-    knowledge about various dishes, users could input preferences like tofu, vegetarian options, low-calorie, or lactose-free meals to 
+    knowledge about various dishes, users could input preferences like tofu, no mushrooms, low-calorie, or lactose-free meals to 
     receive tailored restaurant recommendations.
   image: /assets/img/restaurant_meal_recommender.png
   tags:
