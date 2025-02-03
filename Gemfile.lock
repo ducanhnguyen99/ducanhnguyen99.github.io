@@ -286,6 +286,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-github-metadata
+  jekyll-sitemap
   wdm (>= 0.1.0)
   webrick
 
